@@ -61,16 +61,16 @@ const App: React.FC = () => {
     return (
         <div className="App container text-center">
             <header className="my-4">
-                <h1>X Mix Drix</h1>
+                <h1 style={{ fontWeight: "bold", textDecoration: "underline", color: 'darkblue' }}>X Mix Drix</h1>
             </header>
             {/* Horizontal scoreboard */}
             <div className="scoreboard d-flex justify-content-around align-items-center my-4">
                 <div className="score">
-                    <h5>Player: X</h5>
+                    <h5 style={{ fontWeight: "bold"}}>Player: X</h5>
                     <p className="badge bg-danger fs-5">{xWins}</p>
                 </div>
                 <div className="score">
-                    <h5>Player: O</h5>
+                    <h5 style={{ fontWeight: "bold"}}>Player: O</h5>
                     <p className="badge bg-primary fs-5">{oWins}</p>
                 </div>
             </div>
