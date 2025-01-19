@@ -6,7 +6,7 @@ interface GameBoardProps {
     onCellClick: (index: number) => void;
 }
 
-const GameBoard: React.FC<GameBoardProps> = ({ board, onCellClick }) => {
+const Game_Board: React.FC<GameBoardProps> = ({ board, onCellClick }) => {
     return (
         <div className="game-board">
             {board.map((cell, index) => (
@@ -26,4 +26,4 @@ const GameBoard: React.FC<GameBoardProps> = ({ board, onCellClick }) => {
     );
 };
 
-export default GameBoard;
+export default Game_Board;
